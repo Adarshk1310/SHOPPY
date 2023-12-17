@@ -1,0 +1,289 @@
+
+.cartPage {
+  width: 100%;
+  height: 100%;
+  margin: 0px ;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  /* background-image: url("https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover; */
+}
+
+.cartDiv {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  background-color: rgba(255, 255, 255);
+  margin: 2%;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+h1 {
+  margin-left: 3%;
+  font-family: "Times New Roman", Times, serif;
+}
+.headings {
+  width: 94%;
+  height: 5%;
+  /* margin: 5px 15%; */
+  margin: 1% 3%;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+.headings div {
+  height: 100%;
+  flex-grow: 1;
+  padding: 10px 10px;
+}
+.itemName {
+  width: 35%;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+.itemsDiv {
+  width: 94%;
+  min-height: 400px;
+  margin: 0px 3%;
+}
+.itemsDiv ul {
+  width: 100%;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 85%;
+}
+
+.listItems {
+  width: 100%;
+  height: 120px;
+  border-top: 1px solid rgba(184, 184, 184, 0.459);
+  color: rgb(100, 100, 100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.listItems:nth-child(1){
+  border-bottom: none;
+}
+
+.listItems div {
+  height: 100%;
+  width: 15%;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+.listItems div:nth-child(2) {
+  width: 52%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.itemSize{
+  font-size: 80%;
+}
+
+.listItems p {
+  width: 95%;
+  position: relative;
+  bottom: 20%;
+}
+
+.imgDiv {
+  height: 100%;
+  text-align: none;
+}
+.imgDiv img:hover {
+  cursor: pointer;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  scale: 1.1;
+  transition: 0.4s ease ;
+}
+.listItems img {
+  width: 60%;
+  height: 80%;
+}
+.listItems span img {
+  width: 10px;
+  height: 10px;
+  margin: 0px 7px;
+}
+
+.priceInfo {
+  width: 94%;
+  margin: 0px 3%;
+  padding: 10px 0px 15px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  border-top: 1px solid rgb(184, 184, 184);
+}
+.priceInfo div {
+  height: 140px;
+  width: 35%;
+}
+table {
+  margin-top: 4%;
+  height: 80%;
+  width: 100%;
+  font-weight: 700;
+  color: rgb(138, 138, 138);
+  font-size: medium;
+}
+td {
+  width: 50%;
+  height: 25%;
+  padding: 0px 0px 0px 5%;
+  text-align: end;
+  vertical-align: bottom;
+}
+td:nth-child(1) {
+  text-align: end;
+  padding-right: 10px;
+}
+.subTotal {
+  color: black;
+}
+.totalAmountH {
+  color: black;
+  font-size: large;
+  font-weight: 500;
+}
+.totalAmount {
+  color: red;
+  font-size: x-large;
+  position: relative;
+  top: 2px;
+}
+.buttonDiv {
+  width: 94%;
+  margin: 0px 3%;
+  height: 130px;
+  border-top: 1px solid rgb(184, 184, 184);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.buttonDiv a {
+  height: 45%;
+  width: 17%;
+  margin: 10px 5px;
+  background: transparent;
+  color: red;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.shopping {
+  height: 100%;
+  width: 100%;
+
+  border: 1px solid red;
+  background: transparent;
+  color: red;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+ .placeOrder button {
+  height: 100%;
+  width: 100%;
+  margin: 0px 5px;
+  border: none;
+  background-color: rgb(255, 39, 39);
+  color: white;
+
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.shopping:hover {
+  cursor: pointer;
+}
+.placeOrder button:hover {
+  cursor: pointer;
+}
+.listTotal {
+  color: red;
+  
+}
+.listTotal div {
+  width: 50%;
+  height: 40px;
+  position: relative;
+  right: -30px;
+}
+.listTotal div:nth-child(1){
+  margin-right: -15px;
+}
+
+.listTotal div:nth-child(2){
+  margin-left: -20px;
+}
+.listTotal div img {
+  width: 15%;
+  height: 35%;
+  position: absolute;
+  top:-30px;
+}
+.listTotal div img:hover {
+  cursor: pointer;
+}
+.quantity img:hover {
+  cursor: pointer;
+}
+.redeemDiv {
+  width: 370px;
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 25%;
+  position: relative;
+}
+.buttonDiv input {
+  height: 94%;
+  margin: 0px;
+  padding: 0px;
+  flex: 2;
+  border: 0.5px solid lightgray;
+  outline: none;
+  padding-left: 10px;
+}
+.redeemButton {
+  flex: 1;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  background-color: rgb(57, 209, 255);
+}
+.redeemButton:hover {
+  cursor: pointer;
+}
+.redeemDiv p {
+  position: absolute;
+  top: 25px;
+  left: 5px;
+  color: rgb(3, 201, 3);
+  font-size: smaller;
+}
+.redeemDiv img {
+  position: relative;
+  top: 39px;
+  left: -175px;
+  width: 20px;
+  height: 18px;
+  color: rgb(3, 201, 3);
+  font-size: smaller;
+}
